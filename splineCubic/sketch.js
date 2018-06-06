@@ -1,16 +1,27 @@
 var pts = [];
 var diam = 10;
 var coords;
+var pointCount = 4;
 
 function setup() {
   createCanvas(800, 800);
 
+
+
+
+
   coords = [
-    [width/8, height/4*3],
-    [width/8*3, height/4],
-    [width/8*5, height/4],
-    [width/8*7, height/4*3]
-  ];
+    // [width/8, height/4*3],
+    // [width/8*3, height/4],
+    // [width/8*5, height/4],
+    // [width/8*7, height/4*3]
+    ]
+
+    for (var i=0; i < pointCount; i++ ){
+        var x = Math.random(0,400);
+        var y = Math.random(0,400);
+        coords.push([x,y]);
+    }
 
   for (var i = 0; i < coords.length; i++) {
     pts.push( new Point(coords[i][0], coords[i][1]) );

@@ -1,0 +1,22 @@
+{
+  "name": "tensorstuff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psql/tensorStuff.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psql/tensorStuff/issues"
+  },
+  "homepage": "https://github.com/psql/tensorStuff#readme",
+  "dependencies": {
+    "js-spline": "^1.0.1"
+  }
+}
